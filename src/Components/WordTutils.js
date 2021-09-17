@@ -20,6 +20,18 @@ const WordTutils = (props) => {
         setText(text.toLowerCase());
     }
 
+    const ResetScreen = () =>{
+        setText(" ");
+    }
+
+    const WordCount = () =>{
+        setText(text.split(' ').length + " Words");
+    }
+
+    const CharacterCount = () =>{
+        setText(text.length+ " Characters");
+    }
+
     return (
         <>
             <h1>{props.title}</h1> {/*heading as a props */}
@@ -29,7 +41,15 @@ const WordTutils = (props) => {
                 </div>
             </form>
             <button className="btn btn-primary button" onClick={ToUpperCase}>{props.button1}</button>
+
             <button className="btn btn-danger button" onClick={ToLowerCase}>{props.button2}</button>
+
+            <button className="btn btn-warning button" onClick={WordCount}>{props.button3}</button>
+
+            <button className="btn btn-success button" onClick={CharacterCount}>{props.button4}</button>
+
+            <button className="btn btn-secondary button" onClick={ResetScreen}>{props.button5}</button>
+
         </>
     )
 }
