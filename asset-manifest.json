@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/WordUtils/static/css/main.8688a9c2.chunk.css",
+    "main.js": "/WordUtils/static/js/main.bbe7dbd6.chunk.js",
+    "main.js.map": "/WordUtils/static/js/main.bbe7dbd6.chunk.js.map",
+    "runtime-main.js": "/WordUtils/static/js/runtime-main.4414c4bd.js",
+    "runtime-main.js.map": "/WordUtils/static/js/runtime-main.4414c4bd.js.map",
+    "static/js/2.9bd8be56.chunk.js": "/WordUtils/static/js/2.9bd8be56.chunk.js",
+    "static/js/2.9bd8be56.chunk.js.map": "/WordUtils/static/js/2.9bd8be56.chunk.js.map",
+    "index.html": "/WordUtils/index.html",
+    "static/css/main.8688a9c2.chunk.css.map": "/WordUtils/static/css/main.8688a9c2.chunk.css.map",
+    "static/js/2.9bd8be56.chunk.js.LICENSE.txt": "/WordUtils/static/js/2.9bd8be56.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4414c4bd.js",
+    "static/js/2.9bd8be56.chunk.js",
+    "static/css/main.8688a9c2.chunk.css",
+    "static/js/main.bbe7dbd6.chunk.js"
+  ]
+}
